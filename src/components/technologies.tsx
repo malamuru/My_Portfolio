@@ -12,7 +12,7 @@ const levitateUp = (delay = 0) => ({
   transition: {
     duration: 2,
     repeat: Infinity,
-    repeatType: "loop",
+    repeatType: "loop" as const,
     delay,
   },
 });
@@ -22,7 +22,7 @@ const levitateDown = (delay = 0) => ({
   transition: {
     duration: 2,
     repeat: Infinity,
-    repeatType: "loop",
+    repeatType: "loop" as const,
     delay,
   },
 });
@@ -53,68 +53,44 @@ const Technologies = () => {
         transition={{ duration: 1 }}
         className="flex flex-wrap items-center justify-center gap-6"
       >
-        {/* React */}
         <motion.div
-          className="rounded-2xl p-4
-                     bg-white dark:bg-white/10
-                     border border-black/10 dark:border-white/20
-                     shadow-lg backdrop-blur-lg"
-          animate={!isMobile ? levitateUp(0) : {}}
+          className="rounded-2xl p-4 bg-white dark:bg-white/10 border border-black/10 dark:border-white/20 shadow-lg backdrop-blur-lg"
+          animate={!isMobile ? levitateUp(0) : undefined}
         >
           <RiReactjsLine className="text-7xl text-cyan-400" />
         </motion.div>
 
-        {/* Next.js */}
         <motion.div
-          className="rounded-2xl p-4
-                     bg-white dark:bg-white/10
-                     border border-black/10 dark:border-white/20
-                     shadow-lg backdrop-blur-lg"
-          animate={!isMobile ? levitateDown(0.5) : {}}
+          className="rounded-2xl p-4 bg-white dark:bg-white/10 border border-black/10 dark:border-white/20 shadow-lg backdrop-blur-lg"
+          animate={!isMobile ? levitateDown(0.5) : undefined}
         >
           <TbBrandNextjs className="text-7xl text-black dark:text-white" />
         </motion.div>
 
-        {/* MongoDB */}
         <motion.div
-          className="rounded-2xl p-4
-                     bg-white dark:bg-white/10
-                     border border-black/10 dark:border-white/20
-                     shadow-lg backdrop-blur-lg"
-          animate={!isMobile ? levitateUp(1) : {}}
+          className="rounded-2xl p-4 bg-white dark:bg-white/10 border border-black/10 dark:border-white/20 shadow-lg backdrop-blur-lg"
+          animate={!isMobile ? levitateUp(1) : undefined}
         >
           <SiMongodb className="text-7xl text-green-500" />
         </motion.div>
 
-        {/* Redis */}
         <motion.div
-          className="rounded-2xl p-4
-                     bg-white dark:bg-white/10
-                     border border-black/10 dark:border-white/20
-                     shadow-lg backdrop-blur-lg"
-          animate={!isMobile ? levitateDown(1.5) : {}}
+          className="rounded-2xl p-4 bg-white dark:bg-white/10 border border-black/10 dark:border-white/20 shadow-lg backdrop-blur-lg"
+          animate={!isMobile ? levitateDown(1.5) : undefined}
         >
           <DiRedis className="text-7xl text-red-700" />
         </motion.div>
 
-        {/* Node.js */}
         <motion.div
-          className="rounded-2xl p-4
-                     bg-white dark:bg-white/10
-                     border border-black/10 dark:border-white/20
-                     shadow-lg backdrop-blur-lg"
-          animate={!isMobile ? levitateUp(2) : {}}
+          className="rounded-2xl p-4 bg-white dark:bg-white/10 border border-black/10 dark:border-white/20 shadow-lg backdrop-blur-lg"
+          animate={!isMobile ? levitateUp(2) : undefined}
         >
           <FaNode className="text-7xl text-green-500" />
         </motion.div>
 
-        {/* PostgreSQL */}
         <motion.div
-          className="rounded-2xl p-4
-                     bg-white dark:bg-white/10
-                     border border-black/10 dark:border-white/20
-                     shadow-lg backdrop-blur-lg"
-          animate={!isMobile ? levitateDown(2.5) : {}}
+          className="rounded-2xl p-4 bg-white dark:bg-white/10 border border-black/10 dark:border-white/20 shadow-lg backdrop-blur-lg"
+          animate={!isMobile ? levitateDown(2.5) : undefined}
         >
           <BiLogoPostgresql className="text-7xl text-sky-700" />
         </motion.div>
