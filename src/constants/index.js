@@ -3,8 +3,8 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-import capitalLogo from "../assets/experience.jpg";
-import cvsLogo from "../assets/experience-1.jpeg";
+import capitalLogo from "../assets/experience.jpeg";
+import cvsLogo from "../assets/experience-1.jpg";
 
 export const HERO_CONTENT = `I am a passionate and adaptable software professional with experience in building scalable applications, data-driven solutions, and modern web platforms. My background includes full-stack development, data engineering concepts, AI interests, cloud-based analytics, and big data technologies such as Apache Spark and Hadoop. I enjoy solving real-world problems, learning emerging technologies, and building efficient, user-focused solutions across software and data domains.`;
 
