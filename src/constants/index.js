@@ -3,8 +3,8 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-import thinkroundLogo from "../assets/experience-1.jpg";
-import eesavyasaLogo from "../assets/experience.jpeg";
+import capitalLogo from "../assets/experience-1.jpg";
+import cvsLogo from "../assets/experience.jpeg";
 
 export const HERO_CONTENT = `I am a passionate and adaptable software professional with experience in building scalable applications, data-driven solutions, and modern web platforms. My background includes full-stack development, data engineering concepts, AI interests, cloud-based analytics, and big data technologies such as Apache Spark and Hadoop. I enjoy solving real-world problems, learning emerging technologies, and building efficient, user-focused solutions across software and data domains.`;
 
@@ -12,22 +12,22 @@ export const ABOUT_TEXT = `I am a versatile technology professional with experie
 
 export const EXPERIENCES = [
    {
-    year: "Feb 2026 - Present",
-    role: "Technology Intern",
-    company: "ThinkRound Inc.",
-    image: thinkroundLogo,
+    year: "Jan 2026 - Present",
+    role: "Senior AI ML Engineer & Python Developer",
+    company: "Capital Group",
+    image: capitalLogo,
     description:
-      "Contributing to website migration, UI enhancement, reusable component development, and CMS integration while collaborating with cross-functional teams in an Agile environment.",
-    technologies: ["React", "Next.js", "Tailwind CSS", "Sanity CMS", "GitHub"],
+      "Developing Python APIs, data pipelines, and AI-powered research applications using RAG and LLMs, with responsibilities spanning integration, testing, deployment, and production support.",
+    technologies: [""Python", "FastAPI", "LangChain", "RAG", "Pinecone", "AWS", "SQL", "Docker"],
   },
     {
-    year: "Jan 2020 - Dec2023",
-    role: "Software Associate",
-    company: "Eesavyasa Technologies Pvt Limited, India",
-    image: eesavyasaLogo,
+    year: "May 2024 - Dec 2024",
+    role: "AI ML Engineer Python Developer",
+    company: "CVS Health",
+    image: cvsLogo,
     description:
-      "Worked on application development, user interface improvements, data handling, and feature implementation for organizational and project management systems.",
-    technologies: ["JavaScript", "React.js", "Next.js", "MongoDB", "Firebase", "CSS"],
+      "Developed Python data pipelines, machine-learning models, and REST APIs for healthcare claims analysis, including data validation, model evaluation, testing, and deployment support.",
+    technologies: ["Python", "Pandas", "NumPy", "Scikit-learn", "Flask", "Django REST Framework", "PostgreSQL", "PySpark", "AWS"],
   },
 ];
 
@@ -69,5 +69,5 @@ export const PROJECTS = [
 export const CONTACT = {
   address: "Charlotte, North Carolina, USA",
   phoneNo: "+1 4848369762",
-  email: "mnksalamuru95@gmail.com",
+  email: "amounikaoff@gmail.com",
 };
