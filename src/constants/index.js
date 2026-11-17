@@ -18,7 +18,7 @@ export const EXPERIENCES = [
     image: capitalLogo,
     description:
       "Developing Python APIs, data pipelines, and AI-powered research applications using RAG and LLMs, with responsibilities spanning integration, testing, deployment, and production support.",
-    technologies: [""Python", "FastAPI", "LangChain", "RAG", "Pinecone", "AWS", "SQL", "Docker"],
+    technologies: ["Python", "FastAPI", "LangChain", "RAG", "Pinecone", "AWS", "SQL", "Docker"],
   },
     {
     year: "May 2024 - Dec 2024",
